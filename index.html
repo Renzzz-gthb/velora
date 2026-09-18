@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Velora — premium digital experiences for modern businesses.">
+<title>Velora — Digital Experiences</title>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+<style>
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:#080b16;color:#f7f6f2;font-family:"DM Sans",sans-serif}a{text-decoration:none;color:inherit}button,input,textarea{font:inherit}.nav{height:78px;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;border-bottom:1px solid #202638;background:rgba(8,11,22,.86);backdrop-filter:blur(18px);position:sticky;top:0;z-index:20}.logo{font:800 25px "Manrope";letter-spacing:-1.5px}.logo span{display:inline-grid;place-items:center;width:31px;height:31px;background:#f3c969;color:#080b16;border-radius:50%;margin-right:5px;font-size:15px}nav{display:flex;align-items:center;gap:32px;font-size:14px;color:#c9ccda}nav a:hover{color:#fff}.nav-cta{color:#080b16!important;background:#f3c969;padding:12px 18px;border-radius:999px;font-weight:700}.menu{display:none;background:none;border:0;color:#fff;font-size:24px}.hero{position:relative;overflow:hidden;min-height:720px;padding:115px 10vw 100px;background:radial-gradient(circle at 82% 30%,#24255a 0,transparent 31%),radial-gradient(circle at 58% 85%,#123e47 0,transparent 27%),#080b16}.hero:after{content:"";position:absolute;inset:0;background-image:linear-gradient(#ffffff05 1px,transparent 1px),linear-gradient(90deg,#ffffff05 1px,transparent 1px);background-size:55px 55px;mask-image:linear-gradient(to bottom,black,transparent 80%);pointer-events:none}.hero-orb{position:absolute;border-radius:50%;filter:blur(4px);opacity:.55}.orb1{width:260px;height:260px;background:#6254e7;right:5%;top:16%;box-shadow:0 0 90px #6254e766}.orb2{width:180px;height:180px;background:#24c6b4;right:28%;bottom:3%;box-shadow:0 0 70px #24c6b466}.hero>*:not(.hero-orb){position:relative;z-index:2}.eyebrow,.section-label{font-size:11px;font-weight:700;letter-spacing:2.2px;color:#8f96aa}.hero h1{font:800 clamp(52px,8vw,112px)/.94 "Manrope";letter-spacing:-6px;max-width:1100px;margin:24px 0}.hero h1 span{background:linear-gradient(90deg,#f3c969,#e9a5d7,#7ddbd1);-webkit-background-clip:text;background-clip:text;color:transparent}.hero-copy{max-width:570px;color:#b1b5c4;font-size:18px;line-height:1.65}.hero-actions{display:flex;gap:12px;margin:30px 0}.button{display:inline-flex;align-items:center;gap:13px;padding:15px 22px;border-radius:999px;font-weight:700;font-size:14px;border:0;cursor:pointer}.primary{background:#f3c969;color:#080b16}.ghost{border:1px solid #41485d;color:#fff}.hero-note{font-size:12px;color:#8f96aa;margin-top:28px}.hero-note i{display:inline-block;width:8px;height:8px;background:#63d6a0;border-radius:50%;margin-right:8px;box-shadow:0 0 12px #63d6a0}.scroll-hint{font-size:10px;letter-spacing:2px;color:#6f768a;margin-top:65px}.marquee{overflow:hidden;border-block:1px solid #202638;background:#0d1120;padding:18px 0;white-space:nowrap}.marquee div{font:800 12px "Manrope";letter-spacing:3px;color:#777f95;animation:move 18s linear infinite}.marquee b{color:#f3c969;margin:0 35px}@keyframes move{to{transform:translateX(-25%)}}.section{padding:120px 10vw;background:#0b0f1d}.section-heading,.work-head{display:grid;grid-template-columns:1.2fr .8fr;gap:10%;align-items:end;margin-top:30px}.section h2,.work h2,.process h2,.contact h2{font:800 clamp(43px,6vw,80px)/.98 "Manrope";letter-spacing:-4px;margin:0}.section h2 em,.work h2 em,.contact h2 em{font-family:Georgia,serif;font-weight:400;letter-spacing:-4px;color:#d6d8e2}.section-heading p,.work-head p{line-height:1.7;color:#858ca0;max-width:440px}.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:65px}.service-card{min-height:220px;text-align:left;padding:28px;border:1px solid #262c3e;background:#111626;color:#fff;border-radius:18px;cursor:pointer;transition:.25s}.service-card:hover,.service-card.active{transform:translateY(-5px);border-color:#f3c969;background:linear-gradient(145deg,#161d31,#101524)}.service-card span{display:block;color:#737b91;font-size:11px}.service-card strong{display:block;font:700 25px "Manrope";margin-top:75px}.service-card small{display:block;color:#777f95;margin-top:8px}.service-detail{display:grid;grid-template-columns:.6fr 1.4fr;gap:30px;margin-top:15px;padding:25px 28px;border:1px solid #242a3c;border-radius:18px;background:#0e1322}.service-detail span{color:#f3c969;font-size:11px}.service-detail h3{font:700 23px "Manrope";margin:10px 0}.service-detail p{color:#a2a8b8;line-height:1.65;margin:0}.work{background:#101526}.projects{display:grid;grid-template-columns:1.25fr .75fr;gap:18px;margin-top:60px}.project{padding:0;background:none;border:0;text-align:left;color:#fff;cursor:pointer}.project:first-child{grid-row:span 2}.project-visual{min-height:330px;position:relative;display:grid;place-items:center;border-radius:18px;overflow:hidden;transition:.25s}.project:hover .project-visual,.project.selected .project-visual{transform:translateY(-4px)}.project-visual span{font:800 43px "Manrope";letter-spacing:6px}.project-visual i{position:absolute;right:24px;top:22px;font-style:normal;font-size:20px}.atelier{background:linear-gradient(135deg,#d6c4a6,#8c8d9e);color:#171925}.nova{background:linear-gradient(135deg,#cfb8a1,#4c4050);min-height:260px}.form{background:linear-gradient(135deg,#8ba8a3,#272d3b);min-height:260px}.project>div:last-child{padding:15px 3px}.project b,.project small{display:block}.project small{color:#747d91;font-size:12px;margin-top:5px}.project-caption{margin-top:20px;color:#8e95a7;font-size:13px}.process{background:#111727}.steps{display:grid;grid-template-columns:repeat(3,1fr);border-top:1px solid #293044;margin-top:65px}.steps article{padding:30px 25px 0 0;border-right:1px solid #293044;min-height:220px}.steps article+article{padding-left:25px}.steps strong{font-size:11px;color:#f3c969}.steps h3{font:700 24px "Manrope";margin:55px 0 10px}.steps p{max-width:310px;color:#858da1;line-height:1.6}.testimonial{padding:120px 14vw;background:#0b0f1d;border-top:1px solid #202638}.quote{font:500 clamp(29px,4vw,55px)/1.15 "Manrope";letter-spacing:-2px;max-width:1050px}.person{display:flex;align-items:center;gap:13px;margin-top:45px}.avatar{width:42px;height:42px;border-radius:50%;display:grid;place-items:center;background:#f3c969;color:#080b16;font-size:11px;font-weight:700}.person b,.person small{display:block}.person small{color:#747d91;font-size:11px;margin-top:3px}.contact{position:relative;overflow:hidden;background:linear-gradient(135deg,#16203b,#142f38);padding:120px 10vw}.contact-glow{position:absolute;width:380px;height:380px;border-radius:50%;right:-80px;top:-80px;background:#5e4de6;filter:blur(80px);opacity:.25}.contact>*:not(.contact-glow){position:relative}.contact h2{margin:30px 0 18px}.contact p{color:#9ea6b8}.contact form{max-width:680px;display:grid;gap:16px;margin-top:35px}.contact label{font-size:12px;color:#aeb5c5}.contact input,.contact textarea{display:block;width:100%;margin-top:7px;padding:14px 16px;border:1px solid #364057;border-radius:12px;background:#0c1322;color:#fff;outline:0}.contact input:focus,.contact textarea:focus{border-color:#f3c969}.contact textarea{resize:vertical}.light{background:#f3c969;color:#080b16;width:max-content}.form-message{font-size:13px;color:#70dda7;min-height:20px}footer{background:#080b16;border-top:1px solid #202638;color:#fff;padding:28px 6vw;display:flex;align-items:center;justify-content:space-between;font-size:12px}footer p{color:#70778b}footer>div:last-child{display:flex;gap:20px}@media(max-width:800px){nav{display:none;position:absolute;left:0;right:0;top:78px;padding:22px 7vw;background:#0b0f1d;flex-direction:column;align-items:flex-start;border-bottom:1px solid #242a3c}.menu{display:block}.hero{padding:85px 7vw}.hero h1{letter-spacing:-3px}.orb1{right:-90px}.section{padding:85px 7vw}.section-heading,.work-head{grid-template-columns:1fr;gap:20px}.service-grid,.steps{grid-template-columns:1fr}.projects{grid-template-columns:1fr}.project:first-child{grid-row:auto}.project-visual{min-height:270px}.service-card strong{margin-top:45px}.service-detail{grid-template-columns:1fr}.contact{padding:85px 7vw}footer{flex-direction:column;gap:16px;text-align:center}}
+
+</style>
+</head>
+<body>
+<div class="site-status" id="siteStatus" role="status" aria-live="polite"></div>
+<header class="nav">
+  <a class="logo" href="#top"><span>V</span>elora</a>
+  <nav id="nav">
+    <a href="#services">Services</a><a href="#work">Work</a><a href="#process">Process</a>
+    <a href="#contact" class="nav-cta">Let's talk ↗</a>
+  </nav>
+  <button class="menu" id="menu" type="button" aria-label="Open navigation">☰</button>
+</header>
+
+<main id="top">
+<section class="hero">
+  <div class="hero-orb orb1"></div><div class="hero-orb orb2"></div>
+  <div class="eyebrow">DIGITAL STUDIO · MANILA</div>
+  <h1>Websites that make<br><span>people stop scrolling.</span></h1>
+  <p class="hero-copy">We design sharp, modern digital experiences for businesses that want to look premium and turn attention into action.</p>
+  <div class="hero-actions">
+    <a href="#contact" class="button primary">Start a project <span>↗</span></a>
+    <a href="#work" class="button ghost">Explore work</a>
+  </div>
+  <div class="hero-note"><i></i> Available for new projects</div>
+  <div class="scroll-hint">SCROLL TO EXPLORE ↓</div>
+</section>
+
+<section class="marquee"><div>DESIGN <b>✦</b> DEVELOP <b>✦</b> LAUNCH <b>✦</b> GROW <b>✦</b> DESIGN <b>✦</b> DEVELOP <b>✦</b></div></section>
+
+<section id="services" class="section">
+  <div class="section-label">01 / WHAT WE DO</div>
+  <div class="section-heading"><h2>Everything your<br>website <em>needs.</em></h2><p>Not just something that looks good. Every page is structured around clarity, credibility, and conversion.</p></div>
+  <div class="service-grid">
+    <button class="service-card active" type="button" data-service="design"><span>01</span><strong>Web Design</strong><small>Explore ↗</small></button>
+    <button class="service-card" type="button" data-service="dev"><span>02</span><strong>Development</strong><small>Explore ↗</small></button>
+    <button class="service-card" type="button" data-service="growth"><span>03</span><strong>Growth</strong><small>Explore ↗</small></button>
+  </div>
+  <div class="service-detail" id="serviceDetail" aria-live="polite">
+    <div><span id="detailNumber">01</span><h3 id="detailTitle">Web Design</h3></div>
+    <p id="detailText">Premium layouts, strong visual hierarchy, mobile-first thinking, and a clear path from first impression to action.</p>
+  </div>
+</section>
+
+<section id="work" class="section work">
+  <div class="section-label">02 / SELECTED WORK</div>
+  <div class="work-head"><h2>Designed to<br><em>stand apart.</em></h2><p>Tap a project to preview the visual direction and see how the same system can adapt to different industries.</p></div>
+  <div class="projects">
+    <button class="project selected" data-project="atelier" type="button"><div class="project-visual atelier"><span>ATELIER</span><i>↗</i></div><div><b>Atelier No. 8</b><small>Creative studio · Brand website</small></div></button>
+    <button class="project" data-project="nova" type="button"><div class="project-visual nova"><span>NOVA</span><i>↗</i></div><div><b>Nova Coffee</b><small>Hospitality · Local business</small></div></button>
+    <button class="project" data-project="form" type="button"><div class="project-visual form"><span>FORM</span><i>↗</i></div><div><b>Form Fitness</b><small>Fitness · Membership brand</small></div></button>
+  </div>
+  <div class="project-caption" id="projectCaption">A warm editorial direction with oversized type and tactile neutral tones.</div>
+</section>
+
+<section id="process" class="section process">
+  <div class="section-label">03 / THE PROCESS</div><h2>Simple by design.</h2>
+  <div class="steps">
+    <article><strong>01</strong><h3>Discover</h3><p>Define the audience, offer, goals, and visual direction.</p></article>
+    <article><strong>02</strong><h3>Design</h3><p>Turn strategy into a polished interface and clear user journey.</p></article>
+    <article><strong>03</strong><h3>Launch</h3><p>Build, test, optimize, and hand over a site ready for customers.</p></article>
+  </div>
+</section>
+
+<section class="testimonial">
+  <div class="quote">“The website finally feels like our brand — clear, confident, and professional.”</div>
+  <div class="person"><span class="avatar">JM</span><div><b>Jamie Mendoza</b><small>Founder, Atelier No. 8</small></div></div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-glow"></div><div class="section-label">04 / START SOMETHING</div>
+  <h2>Have a good idea?<br><em>Let's make it real.</em></h2><p>Tell us what you're building and we'll get back to you with the next steps.</p>
+  <form id="contactForm">
+    <label>Name<input id="name" required placeholder="Your name"></label>
+    <label>Email<input id="email" type="email" required placeholder="you@example.com"></label>
+    <label>Project<textarea id="project" required rows="3" placeholder="Tell us a little about your project"></textarea></label>
+    <button class="button light" type="submit">Send inquiry <span>↗</span></button>
+    <div class="form-message" id="formMessage" aria-live="polite"></div>
+  </form>
+</section>
+</main>
+
+<footer><div class="logo"><span>V</span>elora</div><p>© 2026 Velora Studio</p><div><a href="#">Instagram</a><a href="#">LinkedIn</a></div></footer>
+<script>
+const nav=document.querySelector("#nav"),menu=document.querySelector("#menu");menu.addEventListener("click",()=>{const open=nav.style.display==="flex";nav.style.display=open?"none":"flex";menu.setAttribute("aria-label",open?"Open navigation":"Close navigation")});nav.querySelectorAll("a").forEach(a=>a.addEventListener("click",()=>{if(innerWidth<=800)nav.style.display="none"}));
+
+const serviceData={design:["01","Web Design","Premium layouts, strong visual hierarchy, mobile-first thinking, and a clear path from first impression to action."],dev:["02","Development","Fast, responsive, accessible front-end builds with clean structure and interactions that feel intentional."],growth:["03","Growth","SEO-ready structure, persuasive calls to action, and analytics-friendly pages built around measurable goals."]};
+document.querySelectorAll(".service-card").forEach(card=>card.addEventListener("click",()=>{document.querySelectorAll(".service-card").forEach(c=>c.classList.remove("active"));card.classList.add("active");const d=serviceData[card.dataset.service];document.querySelector("#detailNumber").textContent=d[0];document.querySelector("#detailTitle").textContent=d[1];document.querySelector("#detailText").textContent=d[2]}));
+
+const projectData={atelier:"A warm editorial direction with oversized type and tactile neutral tones.",nova:"A rich hospitality direction built around warmth, atmosphere, and a memorable first impression.",form:"A confident performance direction using bold type, contrast, and energetic visual rhythm."};
+document.querySelectorAll(".project").forEach(p=>p.addEventListener("click",()=>{document.querySelectorAll(".project").forEach(x=>x.classList.remove("selected"));p.classList.add("selected");document.querySelector("#projectCaption").textContent=projectData[p.dataset.project]}));
+
+document.querySelector("#contactForm").addEventListener("submit",e=>{e.preventDefault();const name=document.querySelector("#name").value.trim();const msg=document.querySelector("#formMessage");if(!name){msg.textContent="Please enter your name.";return}msg.textContent=`Thanks, ${name}! Your inquiry has been captured in this demo. Connect the form to an email service before launch.`;e.target.reset()});
+
+</script>
+</body>
+</html>
